@@ -6,8 +6,6 @@
 
 # PyDentity
 
-![Endgame](./images/endgame.png)
-
 In this example, we're extending a [Distributed Trust System for Privacy Preserving Machine Learning](https://arxiv.org/abs/2006.02456) to work with PySyft. We're using HL-Aries Agents to establish an end-end encrypted channel which will facilitate syft communications. We can then extend this with credentials and governance systems.
 
 # Requirements
