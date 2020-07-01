@@ -8,4 +8,4 @@
 
 ![Endgame](./images/endgame.png)
 
-In this repo, we're building out Aries Agent controller logic to facilitate Self-Sovereign Identity principles in Aries applications.
+In this repo, we're building out Aries Agent controller logic to facilitate Self-Sovereign Identity principles in python applications.
