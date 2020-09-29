@@ -37,6 +37,8 @@ services:
       - ${ISSUER_ADMIN_PORT}:${ISSUER_ADMIN_PORT}
     networks:
       - indy_demo
+    volumes:
+      - issuer-agent:/home/indy/.indy_client/wallet
   issuer-notebook:
     build:
       context: ../../
@@ -70,3 +72,7 @@ services:
 
 networks:
   indy_demo:
+
+volumes:
+  issuer-agent:
+
